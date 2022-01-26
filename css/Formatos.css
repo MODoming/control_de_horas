@@ -60,12 +60,9 @@
     height: 5px;
     justify-content: center;
 }
-#usser{
+.input{
     height: 30px;
-    background-color: whitesmoke;
-}
-#pasw{
-    height: 30px;
+    text-align: center;
     background-color: whitesmoke;
 }
 label{
@@ -80,10 +77,23 @@ button{
     height: 30px;
     margin: 5px auto;
 }
-footer{
-    display: table-cell;
+.footer{
     vertical-align: top;
-    width: 15%;
-    margin: 20px;
-    padding: 25px;
+    position: relative;
+    margin-top: 10%;
+    height: 40px;
+    padding:5px 0px;
+    clear: both;
+    text-align: center;
+    display: flex;
+}
+.copyrigth{
+    vertical-align: top;
+    background: none;
+    text-align: center;
+    align-items: top;
+    width: 100%;
+    margin: 10px, auto;
+    justify-content: center;
+    font-display: auto;
 }
