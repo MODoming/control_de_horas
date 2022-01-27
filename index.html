@@ -9,35 +9,32 @@
     <link rel="stylesheet" href="css/Formatos.css">
     <link rel="stylesheet" href="css/Formatos.css"> 
 </head>
+<header>
+    <div class="zocalo"></div>
+</header>
 <body>
-    <header>
-        <div class="zocalo">
-            <!--<h1 class="titulo">Practicas Profesionalizantes</h1> --> 
-        </div>                 
-        <div class="cuadro ppal">
-            <h3 class="titulo2">Usuario y Contraseña</h3>
-            <form id="comprobar">
-                <div class="cuadro ppal">
-                    <div class="form">
-                        <label for="usuario">Usuario:</label>
-                        <input class="input" type="text" id="usser" name="usuario" placeholder=" Ingrese usuario">
-                    </div>
-                    <br><br> 
-                    <div class="form">
-                        <label for="contraseña">Contraseña:</label> 
-                        <input class="input" type="password" id="pasw" name="contraseña" placeholder=" Ingrese contraseña">
-                    </div>
-                    <br><br>
-                    <div class="form">
-                        <button id="ingresar">Ingresar</button>
-                    </div>                    
+    <div><h3 class="titulo2">Usuario y Contraseña</h3></div>                 
+    <div class="cuadro">                
+        <form id="comprobar">
+            <div>
+                <div class="form">
+                    <label for="usuario">Usuario:</label><br>
+                    <input class="input" type="text" id="usser" name="usuario" placeholder=" Ingrese usuario">
                 </div>
-            </form>
-        </div>
-    </header>
+                <br>
+                <div class="form">
+                    <label for="contraseña">Contraseña:</label><br> 
+                    <input class="input" type="password" id="pasw" name="contraseña" placeholder=" Ingrese contraseña">
+                </div>
+                <br><br>
+                <div class="form">
+                    <button id="ingresar">Ingresar</button><br>
+                </div>                    
+            </div>
+        </form>
+    </div>
     <script src="js/crear_usuario.js"></script>
-    <script src="js/verrificar_usuario.js"></script>
-    
+    <script src="js/verrificar_usuario.js"></script>    
 </body>
 <footer class="footer">
     <div class="copyrigth">
